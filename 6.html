@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfumery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Perfumery</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="content">
+      <!-- Page content goes here -->
+      <h2>The Art of Perfumery</h2>
+      <p>Method of obtaining the odors of plants...</p>
+      <!-- Article content goes here -->
+    </section>
+    <aside class="sidebar">
+      <!-- Sidebar content goes here -->
+      <h3>Index</h3>
+      <ul>
+        <li><a href="#">Camphorated Chalk Powder</a></li>
+        <li><a href="#">Quinine Tooth Powder</a></li>
+        <li><a href="#">Prepared Charcoal Powder</a></li>
+        <!-- Other index items -->
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Perfumery. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+CSS (styles.css):
+
+css
+Copy code
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 960px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex-grow: 2;
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
